@@ -91,11 +91,11 @@ ALLOWED_HOSTS = ['your-render-subdomain.onrender.com']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
+        'NAME': 'rccyqnad',  # Your database name
+        'USER': 'rccyqnad',  # Your database user
+        'PASSWORD': 'Ac6C-5tGTW8BPzJshM2rs749MQ5yxpol',  # Your database password
+        'HOST': 'balarama.db.elephantsql.com',  # Your database host
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
