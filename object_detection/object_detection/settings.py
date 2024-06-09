@@ -87,7 +87,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Security settings
 DEBUG = False
-ALLOWED_HOSTS = ['your-render-subdomain.onrender.com','https://final-backend-l5s0.onrender.com','inal-backend-l5s0.onrender.com']
+ALLOWED_HOSTS = ['https://final-backend-wu6y.onrender.com','final-backend-wu6y.onrender.com']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
